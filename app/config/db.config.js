@@ -22,4 +22,11 @@ module.exports = {
   //   acquire: 30000,
   //   idle: 10000,
   // },
+  // create MySQL table on ClearDB
+  // mysql --host=us-cdbr-east-05.cleardb.net --user=be7509ee88be0a --password=444001ba --reconnect heroku_d735562e7808766
+  // SQL script:
+  // CREATE TABLE IF NOT EXISTS `people` (
+  //   id int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  //   title varchar(255) NOT NULL
+  // ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 };
